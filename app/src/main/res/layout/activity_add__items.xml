@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_ItemsActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_add"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="7dp"
+        android:id="@+id/New_name"
+        android:autofillHints=""
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/supplier_name"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="7dp"
+        android:id="@+id/New_suppliername"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_price"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="7dp"
+        android:id="@+id/New_price"
+        android:autofillHints="" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_button"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:id="@+id/new_btn"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="110dp" />
+
+
+
+</LinearLayout>

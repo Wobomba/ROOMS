@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -12,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#1c2e4a"
-        android:text="Orders"
+        android:text="@string/orders_orderactivity"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -23,22 +22,26 @@
     <Button
         android:layout_width="170dp"
         android:layout_height="wrap_content"
-        android:text="Incoming Orders"
+        android:text="@string/incoming_orders_act"
         android:layout_marginLeft="120dp"
         android:layout_marginRight="110dp"
         android:layout_marginTop="70dp"
         android:layout_marginBottom="10dp"
         android:padding="10dp"
-        android:id="@+id/incoming_btn"/>
+        android:id="@+id/incoming_btn"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="110dp" />
     <Button
         android:layout_width="170dp"
         android:layout_height="wrap_content"
-        android:text="Outgoing Orders"
+        android:text="@string/outgoing_orders_act"
         android:layout_marginLeft="120dp"
         android:layout_marginRight="110dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:padding="10dp"
-        android:id="@+id/outgoing_btn"/>
+        android:id="@+id/outgoing_btn"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="110dp" />
 
 </LinearLayout>
