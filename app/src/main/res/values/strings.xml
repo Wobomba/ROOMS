@@ -38,6 +38,14 @@
     <string name="sign_up">SIGN UP</string>
     <string name="existing_items">Existing Items</string>
     <string name="items01">Items</string>
-=======
+    <string name="add_items_addd">Add Items</string>
+    <string name="item_name_add">Item name</string>
+    <string name="price_add">Price</string>
+    <string name="supplier_name_add">Supplier Name</string>
+    <string name="add_item">Add</string>
+    <string name="submit">submit_item</string>
+    <string name="error_invalid_email">Invalid Email Address</string>
+    <string name="error_invalid_password">Password is short</string>
+    =======
 >>>>>>> origin/master
 </resources>
